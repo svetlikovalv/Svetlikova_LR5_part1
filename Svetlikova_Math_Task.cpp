@@ -1,5 +1,5 @@
 #include <iostream>
-#include <C:\Users\Chris Gargoyle\Desktop\Svetlikova_LR5\Svetlikova_LR5_part1\Svetlikova_Math_Task.h>
+#include "Svetlikova_Math_Task.h"
 double a;
 double b;
 using namespace std;
