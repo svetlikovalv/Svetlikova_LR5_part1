@@ -65,26 +65,26 @@ double modul(double a,double b){
 
 }
 
-// double argument(double a,double b){
-//     //branch_fun_3
-//     //cout<<"комплексная часть числа а= "<<a<<"  комплексная часть числа b= "<<b<<endl;    
-//     if (a>0){
-//         return atan2(b,a);
-//     }
-//     if (a<0 && b>0){
-//         return atan2(b,a)+acos(-1.0);
-//     }if(a<0 && b<0){ 
-//         return atan2(b,a)-acos(-1.0);
-//     }if(a==0&&b>0){
-//         return acos(-1.0)/2;
-//     }
-//     if(a==0&&b<0){
-//         return - acos(-1.0)/2;
-//     }if (a==0 && b==0){
-//         return 0;
-//     }
-
-// }
+double argument(double a,double b){
+    //branch_fun_3
+    //cout<<"комплексная часть числа а= "<<a<<"  комплексная часть числа b= "<<b<<endl;    
+    if (a>0){
+        return atan2(b,a);
+    }
+    if (a<0 && b>0){
+        return atan2(b,a)+acos(-1.0);
+    }if(a<0 && b<0){ 
+        return atan2(b,a)-acos(-1.0);
+    }if(a==0&&b>0){
+        return acos(-1.0)/2;
+    }
+    if(a==0&&b<0){
+        return - acos(-1.0)/2;
+    }if (a==0 && b==0){
+        return 0.0;
+    }
+    return 0.0;
+} //хз почему не работает :.(
 
 
 
